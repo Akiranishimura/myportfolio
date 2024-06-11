@@ -7,7 +7,7 @@ export default function LayoutDefault() {
     <>
       <Header />
       <div className="flex w-full justify-center px-4">
-        <div className="w-full max-w-[1200px] h-screen">
+        <div className="w-full max-w-[1200px] min-h-screen">
           <Outlet />
         </div>
       </div>
