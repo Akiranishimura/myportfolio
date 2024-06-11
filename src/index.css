@@ -27,10 +27,14 @@
 }
 @layer base {
   body {
-    @apply dark bg-BaseColor text-TextColor font-sans;
+    @apply  bg-BaseColor text-TextColor font-sans;
+   
   }
   h2{
       @apply font-medium pt-10 pb-4 text-2xl
+  }
+  h3{
+      @apply font-medium pt-10 pb-3 text-xl
   }
   h1 {
     @apply font-medium pt-10 pb-4 text-3xl

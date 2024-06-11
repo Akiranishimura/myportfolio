@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import LayoutDefault from "./layouts/default";
+import './util/judgeTheme';
 
 function App() {
   return (
