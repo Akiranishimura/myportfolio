@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 export default function ThemeSwitchBtn() {
   const [mode, setMode] = useState(localStorage.theme + " mode" || "light mode");
