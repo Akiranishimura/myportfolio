@@ -1,8 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="h-16 bg-BaseColorbrightest text-TextColor flex justify-center mt-10">
-      <div className="max-w-[1200px] w-full p-4">
-        <p className="">© 2023 Akira Nishimura</p>
+    <footer className="mt-10 flexjustify-center bg-BaseColorbrightest text-TextColor p-4">
+      <div className="w-full max-w-[1200px]">
+        <p className="">
+          © 2024 Akira Nishimura
+          <br />
+          All rights reserved
+        </p>
       </div>
     </footer>
   );
