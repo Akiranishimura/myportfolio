@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
 export default function ThemeSwitchBtn() {
-  const [mode, setMode] = useState(localStorage.theme || "light");
-  useEffect(() => {
-    setTheme();
-  }, []);
+  const [mode, setMode] = useState(localStorage.theme + " mode" || "light mode");
+  // useEffect(() => {
+  //   setTheme();
+  // }, []);
 
   function setTheme() {
     if (document.documentElement.classList.contains("dark")) {
