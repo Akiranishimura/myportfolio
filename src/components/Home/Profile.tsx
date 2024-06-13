@@ -16,7 +16,7 @@ export default function Profile() {
                     東京理科大学創域理工学部電気電子情報工学科 4年
                     <ul className="list-inside list-disc ml-4">
                         <li>
-                        修士課程への進学を予定中
+                        修士課程への進学を予定しています
                         </li>
                     </ul>
                 </li>
