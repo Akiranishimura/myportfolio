@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 export default function ThemeSwitchBtn() {
   useEffect(() => {
@@ -43,10 +44,12 @@ export default function ThemeSwitchBtn() {
          rtl:peer-checked:after:-translate-x-full"></div>
         <p className="text-sm text-TextColor/60 ml-2 lg:inline sm: hidden">
           {mode} mode
-          <p className="lg:hidden sm:inline"> 
 
-          </p>
         </p>
+        <div className="text-TextColor/60 lg:hidden sm: flex text-xl ml-1">
+          <MdOutlineLightMode className=" text-gray-400 dark:hidden"/>
+          <MdOutlineDarkMode className=" text-gray-400 hidden dark:inline"/>
+        </div>
       </label>
     </>
   );
