@@ -9,7 +9,7 @@ export default function Header() {
           AkiraNishimura.me
         </Link>
       </div>
-      <div className="justify-end">
+      <div className="justify-end mt-2">
         <ThemeSwitchBtn />
       </div>
     </header>
